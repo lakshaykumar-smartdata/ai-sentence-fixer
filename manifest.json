@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI Sentence Fixer (Sarvam)",
+  "version": "1.0",
+  "description": "Turns a rough thought into a clean, grammatical sentence with Sarvam AI and types it where your cursor is.",
+  "permissions": ["activeTab", "scripting", "storage", "clipboardWrite"],
+  "host_permissions": ["https://api.sarvam.ai/*"],
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Sentence Fixer",
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png" }
+  },
+  "commands": {
+    "_execute_action": { "suggested_key": { "default": "Alt+Shift+W" } }
+  }
+}
